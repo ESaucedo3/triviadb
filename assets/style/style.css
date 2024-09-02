@@ -1,1 +1,9 @@
 /* BASIC STYLES HERE */
+main {
+  background: rgb(6,218,202);
+  background: radial-gradient(circle, rgba(6,218,202,1) 0%, rgba(4,45,76,1) 85%); 
+}
+
+.questions-structure {
+  min-height: 75dvh;
+}

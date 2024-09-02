@@ -4,7 +4,10 @@ import {createObservableProxy} from './utils/ObservableProxy.js';
 
 class ObservableAppState extends EventEmitter {
   /**@type {Question[]} */
-  question = [];
+  questions = [];
+
+  /**@type {Question} */
+  activeQuestion = null;
 }
 
 export const AppState = createObservableProxy(new ObservableAppState());
